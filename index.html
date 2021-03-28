@@ -4,19 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" src="assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" src="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <title>Week 4: Coding Quiz</title>
 </head>
 <body>
     <div class="container">
-        <div class="question-container hide">
-            <div class=answers>
-                <button id="start-btn"></button>
-                <button id="answer-btn answer-a"></button>
-                <button id="answer answer-b"></button>
-                <button id="answer answer-c"></button>
+        <h1>Tom Chappell's JS Quiz!</h1>
+        <div class="hide" id="question-container">
+            <div id="timer"></div>
+            <div id="score"></div>
+            <div id="question"></div>
+            <div class="btn-grid" id="answers">
+                <button class="btn" id="answer-a"></button>
+                <button class="btn" id="answer-b"></button>
+                <button class="btn" id="answer-c"></button>
             </div>
+        </div>
+        <div id="endgame">
+            <div id="player-score"></div>
+            <
+            <ol id="high-scores">
+            </ol>
+        </div>
+        <div class="controls">
+            <button class="btn" id="start-btn">Start the game!</button>
         </div>
     </div>
     <script src="assets/js/script.js"></script>
